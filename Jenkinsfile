@@ -1,7 +1,5 @@
 pipeline{
-    agent any
-
-    }
+      agent any
     stages{
        stage('maven clean'){
         steps{
@@ -21,3 +19,5 @@ pipeline{
 
     }
 
+}
+  
